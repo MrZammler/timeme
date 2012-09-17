@@ -88,7 +88,7 @@ int main ( int argc, char **argv )
     if ( argc <= 1 )
     {
         printf ( "timeme 1.0 - Times how long a command takes to execute.\n" );
-        printf ( "Usage: timeme (command) [params] ...\nContact: mrzammler@freemail.gr\n" );
+        printf ( "Usage: timeme (command) [params] ...\nContact: mrzammler@gmail.com\n" );
         exit ( 0 );
     }
 
