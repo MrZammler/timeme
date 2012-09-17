@@ -2,14 +2,15 @@ Timeme is a small program for the Amiga that uses timer.device to calculate how 
 
 * Installation:
 
-        Just copy the executable to your C/ drawer (or anywhere in your path).
+Just copy the executable to your C/ drawer (or anywhere in your path).
 
 * Usage:
 
-        Open a shell and run timeme followed by the program you wish and it's parameters. Although it can be used for WB apps, it mainly makes sense for shell stuff.
+Open a shell and run timeme followed by the program you wish and it's parameters. Although it can be used for WB apps, it mainly makes sense for shell stuff.
 
 * Examples:
 
+<pre>
 17/0.Ram Disk:> timeme dir ram:
      IbrowseCache (dir)
      ENV (dir)
@@ -42,4 +43,4 @@ Operation successful.
 
 
 -- 0 hours, 0 minutes, 3 secs, 917470 msec --
-
+</pre>
