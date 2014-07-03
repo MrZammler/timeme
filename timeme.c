@@ -2,11 +2,16 @@
 *	timeme.c
 *	calcs how long a command takes to complete
 *	mrzammler@gmail.com
+*       compile with vbcc: vc -c99 -lamiga -o timeme timeme.c
 */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <proto/exec.h>
 #include <proto/timer.h>
-#include <exec/memory.h>
+#include <clib/alib_protos.h>
+#include <clib/dos_protos.h>
 
 void delete_timer ( struct timerequest *tr )
 {
